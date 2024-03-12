@@ -116,7 +116,7 @@ body {
   padding: 20px;
   background-color: hsl(0, 0%, 100%);
   border: 2px solid black;
-  height: 50rem;
+  height: fit-content;
 }
 
 figure img {
@@ -143,13 +143,25 @@ figure img {
 
 .title {
   color: hsl(0, 0%, 7%);
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
 }
 
 .description {
   color: hsl(0, 0%, 50%);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 1.5rem;
+}
+
+.instructor {
+  display: flex;
+  align-items: center;
+}
+
+.instructor img {
+  display: inline-block;
+  margin: auto 0;
+  width: 4rem;
+  margin-right: 1rem;
 }
