@@ -117,6 +117,7 @@ body {
   background-color: hsl(0, 0%, 100%);
   border: 2px solid black;
   height: fit-content;
+  box-shadow: 5px 6px black;
 }
 
 figure img {
