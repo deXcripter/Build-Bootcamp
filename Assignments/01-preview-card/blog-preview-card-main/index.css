@@ -157,6 +157,7 @@ figure img {
 .instructor {
   display: flex;
   align-items: center;
+  font-weight: bold;
 }
 
 .instructor img {
