@@ -4,7 +4,7 @@
 *::after {
   box-sizing: border-box;
   font-size: 10px;
-  font-family: "Figtree", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 /* Prevent font size inflation */
@@ -146,16 +146,18 @@ ul {
   margin: 20px auto;
   padding: 0;
   width: 80%;
+  margin-bottom: 30px;
 }
 
 li {
   background-color: hsl(0, 0%, 20%);
-  font-weight: 600;
+  font-weight: 700;
   height: 3.5rem;
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0;
-  border-radius: 10px;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
 }
