@@ -45,7 +45,7 @@ main header h1 {
 }
 
 main header p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 main header div {
@@ -58,6 +58,12 @@ main header div h2 {
   color: hsl(332, 51%, 32%);
   font-size: 1.6rem;
   margin: 1rem 0;
+  border-radius: 10px;
+}
+
+.preparation-time-text {
+  width: 90%;
+  margin: auto;
 }
 
 main header div span,
@@ -83,11 +89,21 @@ section h2 {
   margin: 2rem 2rem;
 }
 
+section li span {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+section div li {
+  margin-bottom: 1.6rem;
+}
+
 /* Custom */
 
 /* List Spacing bw list-style and the actual words */
 .ingredients-list li,
-main header div li {
+main header div li,
+section li {
   padding: 0 2rem;
   font-size: 1.5rem;
 }
