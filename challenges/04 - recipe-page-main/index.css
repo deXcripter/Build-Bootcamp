@@ -19,15 +19,17 @@ color {
 
 body {
   background-color: hsl(30, 54%, 90%);
-  height: 100vh;
+  height: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 100px;
+  border: 3px solid green;
 }
 
 main {
   max-height: fit-content;
-  max-width: 550px;
+  max-width: 650px;
   padding: 40px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
@@ -49,7 +51,7 @@ main header p {
 }
 
 main header div {
-  background-color: hsl(30, 54%, 90%);
+  background-color: hsl(330, 100%, 98%);
   padding: 2rem;
   margin: 2rem 0;
 }
@@ -96,6 +98,37 @@ section li span {
 
 section div li {
   margin-bottom: 1.6rem;
+}
+
+/* .nutrients-section {
+  border: 1px solid red;
+} */
+
+.nutrients-section h2 {
+  font-size: 2.6rem;
+}
+
+.nutrients-section p,
+.nutrients-section div,
+.nutrients-section div span {
+  font-size: 1.5rem;
+}
+
+.nutrients-section div span,
+.nutrients-section div {
+  padding: 0 3rem;
+}
+
+.nutrients-section p {
+  margin-bottom: 1rem;
+}
+
+.table div {
+  padding: 1rem 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  border-bottom: 1px solid hsl(30, 54%, 90%);
 }
 
 /* Custom */
