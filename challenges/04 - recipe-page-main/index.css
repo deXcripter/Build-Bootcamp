@@ -19,9 +19,6 @@ color {
 
 body {
   background-color: hsl(30, 54%, 90%);
-}
-
-body {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -29,7 +26,7 @@ body {
 }
 
 main {
-  height: fit-content;
+  max-height: fit-content;
   max-width: 550px;
   padding: 40px;
   background-color: hsl(0, 0%, 100%);
@@ -41,7 +38,7 @@ main header img {
   border-radius: 10px;
   margin-bottom: 20px;
 }
-|
+
 main header h1 {
   font-size: 2.8rem;
   margin-bottom: 1.2rem 0;
@@ -55,7 +52,6 @@ main header div {
   background-color: hsl(30, 54%, 90%);
   padding: 2rem;
   margin: 2rem 0;
-  border: 2px solid pink;
 }
 
 main header div h2 {
@@ -66,10 +62,32 @@ main header div h2 {
 
 main header div span,
 main header div li {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
 main header div span {
   font-weight: bolder;
+}
+
+section h2 {
+  font-size: 2.6rem;
+  color: hsl(14, 45%, 36%);
+  margin: 2rem 0;
+}
+
+.ingredients-list {
+  list-style-position: outside;
+  width: 80%;
+  padding: 0;
+  margin: 2rem 2rem;
+}
+
+/* Custom */
+
+/* List Spacing bw list-style and the actual words */
+.ingredients-list li,
+main header div li {
+  padding: 0 2rem;
+  font-size: 1.5rem;
 }
