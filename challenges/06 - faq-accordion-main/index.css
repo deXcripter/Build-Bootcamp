@@ -111,7 +111,7 @@ main {
   border-radius: 1rem;
   background-color: white;
   padding: 3rem;
-  max-width: 40rem;
+  max-width: 35rem;
   height: fit-content;
 }
 
@@ -124,9 +124,23 @@ main {
 }
 
 .faq h1 {
-  font-size: 4rem;
+  font-size: 3rem;
+}
+
+.border {
+  border-bottom: 1px solid rgba(140, 105, 145, 0.2);
+}
+
+.questions div {
+  padding-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .questions div h2 {
   font-size: 1.1rem;
+  padding-bottom: 1rem;
+}
+
+.questions div h2:hover {
+  color: hsl(293, 75%, 63%);
 }
