@@ -10,14 +10,16 @@ body {
   font-size: 10px;
   display: flex;
   justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
   background-color: coral;
   height: fit-content;
-  margin-top: 15rem;
+  margin-top: 10rem;
   padding: 2rem 5rem;
   border-radius: 3rem;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 main h1 {
@@ -27,14 +29,15 @@ main h1 {
 
 main div {
   font-size: 1.6rem;
+  text-align: center;
 }
 
-main form {
+main .form {
   padding: 2rem 0;
 }
 
-main form button,
-main form input {
+main .form button,
+main .form input {
   font-size: 1.6rem;
   display: block;
   width: 80%;
@@ -42,10 +45,14 @@ main form input {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 0.8rem;
+  border-radius: 0.5rem;
 }
-main form input {
-}
-main form button {
+
+/* main .form input {
+} */
+
+main .form button:hover {
+  background-color: rgb(96, 241, 108);
 }
 
 /* {

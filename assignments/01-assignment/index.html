@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FizzBuzz by Johnpaul</title>
     <link rel="stylesheet" href="index.css" />
-    <script src="index.js"></script>
+    <script src="index.js" type="module"></script>
   </head>
   <body>
     <main>
@@ -16,10 +16,16 @@
         If a number is divisible by 5, it prints "Buzz" <br />
         If a number is divisible by both 3 and 5, it prints "FizzBuzz" <br />
       </div>
-      <form>
-        <input type="number" id="number" placeholder="Enter a number" />
+      <div class="form">
+        <input
+          type="number"
+          id="number"
+          placeholder="Enter a number from 1 - 100"
+          min="1"
+          max="100"
+        />
         <button type="submit" id="button">Submit</button>
-      </form>
+      </div>
     </main>
   </body>
 </html>
