@@ -20,6 +20,7 @@ main {
   padding: 2rem 5rem;
   border-radius: 3rem;
   color: rgba(0, 0, 0, 0.7);
+  box-shadow: -0.3rem 0.4rem 0.8rem black;
 }
 
 main h1 {
