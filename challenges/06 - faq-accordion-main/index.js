@@ -1,3 +1,12 @@
-const expand = document.querySelectorAll(".border ");
+const plusImage = document.querySelectorAll(".toogle-img");
+const sections = document.querySelectorAll(".section");
+console.log(sections);
 
-console.log(expand.length);
+plusImage.forEach((e, i) => {
+  e.addEventListener("click", () => {
+    sections.forEach((e, j) => {
+      if (i !== j) return;
+      e.lastElementChild.classList.toggle("hide");
+    });
+  });
+});
